@@ -334,7 +334,7 @@ const weapon ={
         return `${s}`
   }
 
-  module.export{
+  module.export ={
     Mission1,
     Mission2,
     Mission3,
