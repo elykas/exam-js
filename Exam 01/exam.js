@@ -329,6 +329,15 @@ const weapon ={
   }
   console.log(Mission4(weapon));
   
-  const Mission5 = (military){
+  const Mission5 = (military) => {
+        const s= military.trainingPrograms.reduce((a,c)=> a += c.duration,0)/7
+        return `${s}`
+  }
 
+  module.export{
+    Mission1,
+    Mission2,
+    Mission3,
+    Mission4,
+    Mission5
   }
